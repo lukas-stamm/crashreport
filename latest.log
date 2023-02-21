@@ -1,0 +1,499 @@
+[17:09:51] [main/INFO]: Loading Minecraft 1.19.3 with Fabric Loader 0.14.14
+[17:09:52] [main/INFO]: Loading 112 mods:
+	- architectury 7.1.70
+	- bclib 2.2.4
+	- betterend 3.1.2
+	- betterf3 5.1.0
+	- blossom 1.0.6
+	- caffeineconfig 1.0.0+1.17 via sodium-extra
+	- camerautils 1.19.3-1.0.3
+	- chat_heads 0.10.0
+	- cloth-basic-math 0.6.1 via cloth-config
+	- cloth-config 9.0.94
+	- clumps 9.0.0+16
+	- collective 6.48
+	- com_github_llamalad7_mixinextras 0.0.11 via mru
+	- com_moandjiezana_toml_toml4j 0.7.2 via dynamicfps
+	- com_sksamuel_scrimage_scrimage-core 4.0.31 via mru
+	- deepslatecutting 1.6.0
+	- dyed 1.1.1
+	- dynamicfps 2.2.0
+	- eatinganimationid 1.9.1
+	- ecologics 2.1.12
+	- entityculling 1.6.1-mc1.19.3
+	- error_notifier 1.0.9 via roughlyenoughitems
+	- fabric-api 0.74.0+1.19.3
+	- fabric-api-base 0.4.21+70be179c85 via fabric-api
+	- fabric-api-lookup-api-v1 1.6.20+49abcf7e85 via fabric-api
+	- fabric-biome-api-v1 12.1.1+b5d379b085 via fabric-api
+	- fabric-block-api-v1 1.0.5+e022e5d185 via fabric-api
+	- fabric-blockrenderlayer-v1 1.1.30+c6af733c85 via fabric-api
+	- fabric-client-tags-api-v1 1.0.12+1134c5b885 via fabric-api
+	- fabric-command-api-v1 1.2.22+f71b366f85 via fabric-api
+	- fabric-command-api-v2 2.2.1+3fc4752e85 via fabric-api
+	- fabric-commands-v0 0.2.39+df3654b385 via fabric-api
+	- fabric-containers-v0 0.1.47+df3654b385 via fabric-api
+	- fabric-content-registries-v0 3.5.1+1d37d50285 via fabric-api
+	- fabric-convention-tags-v1 1.2.2+8e4e694f85 via fabric-api
+	- fabric-crash-report-info-v1 0.2.14+aeb40ebe85 via fabric-api
+	- fabric-data-generation-api-v1 11.3.0+40dc7a9485 via fabric-api
+	- fabric-dimensions-v1 2.1.42+00a2eb1085 via fabric-api
+	- fabric-entity-events-v1 1.5.7+b83334a085 via fabric-api
+	- fabric-events-interaction-v0 0.4.40+3baeb27a85 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.44+df3654b385 via fabric-api
+	- fabric-game-rule-api-v1 1.0.30+99f9db8085 via fabric-api
+	- fabric-item-api-v1 2.1.10+312c329485 via fabric-api
+	- fabric-item-group-api-v1 2.1.12+1134c5b885 via fabric-api
+	- fabric-key-binding-api-v1 1.0.31+bc01e09785 via fabric-api
+	- fabric-keybindings-v0 0.2.29+df3654b385 via fabric-api
+	- fabric-lifecycle-events-v1 2.2.10+23a79c8a85 via fabric-api
+	- fabric-loot-api-v2 1.1.20+75e9821185 via fabric-api
+	- fabric-loot-tables-v1 1.1.24+9e7660c685 via fabric-api
+	- fabric-message-api-v1 5.0.14+6ede1da985 via fabric-api
+	- fabric-mining-level-api-v1 2.1.31+49abcf7e85 via fabric-api
+	- fabric-models-v0 0.3.27+11ba9c3b85 via fabric-api
+	- fabric-networking-api-v1 1.2.17+4017a8cb85 via fabric-api
+	- fabric-networking-v0 0.3.34+df3654b385 via fabric-api
+	- fabric-object-builder-api-v1 5.4.1+eb2a3ba985 via fabric-api
+	- fabric-particles-v1 1.0.20+f1e4495b85 via fabric-api
+	- fabric-recipe-api-v1 1.0.1+5176f73d85 via fabric-api
+	- fabric-registry-sync-v0 2.0.5+1134c5b885 via fabric-api
+	- fabric-renderer-api-v1 2.2.1+9f179aa185 via fabric-api
+	- fabric-renderer-indigo 0.7.1+9f179aa185 via fabric-api
+	- fabric-renderer-registries-v1 3.2.30+df3654b385 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.25+afca2f3e85 via fabric-api
+	- fabric-rendering-fluids-v1 3.0.18+f1e4495b85 via fabric-api
+	- fabric-rendering-v0 1.1.33+df3654b385 via fabric-api
+	- fabric-rendering-v1 1.12.1+eb2a3ba985 via fabric-api
+	- fabric-resource-conditions-api-v1 2.3.0+e63306e085 via fabric-api
+	- fabric-resource-loader-v0 0.10.5+a91e48b785 via fabric-api
+	- fabric-screen-api-v1 1.0.41+f1e4495b85 via fabric-api
+	- fabric-screen-handler-api-v1 1.3.13+99f9db8085 via fabric-api
+	- fabric-sound-api-v1 1.0.8+75e9821185 via fabric-api
+	- fabric-transfer-api-v1 2.1.15+ccd377ba85 via fabric-api
+	- fabric-transitive-access-wideners-v1 2.3.1+40dc7a9485 via fabric-api
+	- fabricloader 0.14.14
+	- fallingleaves 1.14.5+1.19.3
+	- ferritecore 5.1.0
+	- freecam 1.1.8+1.19
+	- fuelinfo 1.0.1+1.19
+	- indium 1.0.14+mc1.19.3
+	- infinitetrading 4.0
+	- inventorysorter 1.8.10-1.19.3
+	- io_github_douira_glsl-transformer 2.0.0-pre9 via iris
+	- iris 1.5.2
+	- itemblacklist 1.19.3-1.2.1
+	- java 17
+	- kyrptconfig 1.5.1-1.19.3 via inventorysorter
+	- lambdynlights 2.2.0+1.19.3
+	- litematica 0.13.1
+	- lithium 0.10.4
+	- malilib 0.14.0
+	- mavapi 1.0.3
+	- mavm 1.2.1
+	- maybe-data 1.3.2-1.19.3 via deepslatecutting
+	- mcwpaintings 1.0.4
+	- minecraft 1.19.3
+	- modmenu 5.0.2
+	- mru 0.1.5+1.19.3
+	- org_anarres_jcpp 1.4.14 via iris
+	- org_antlr_antlr4-runtime 4.11.1 via iris
+	- phosphor 0.8.1
+	- pride 1.2.0+1.19.3 via lambdynlights
+	- reeses-sodium-options 1.4.9+mc1.19.2-build.67
+	- roughlyenoughitems 10.0.592
+	- shulkerboxtooltip 3.2.4+1.19.3
+	- smoothchunk 1.19.3-3.0
+	- snowundertrees 1.0.0+1.19.3
+	- sodium 0.4.9+build.23
+	- sodium-extra 0.4.17+mc1.19.3-build.95
+	- spruceui 4.1.0+1.19.3 via lambdynlights
+	- strongersnowballs 10.0.1
+	- swampier_swamps 1.19.3-2.0.3
+	- visuality 0.6.0
+	- xaeroworldmap 1.28.9
+[17:09:52] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/lukas/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[17:09:52] [main/INFO]: Compatibility level set to JAVA_16
+[17:09:52] [main/INFO]: Compatibility level set to JAVA_17
+[17:09:52] [main/WARN]: Reference map 'infinitetrading-fabric-1.19.3-refmap.json' for infinitetrading_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:09:52] [main/INFO]: Loaded configuration file for Lithium: 106 options available, 1 override(s) found
+[17:09:52] [main/WARN]: Reference map 'mru-refmap.json' for mru.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:09:52] [main/INFO]: Loaded configuration file for Sodium: 33 options available, 3 override(s) found
+[17:09:53] [main/INFO]: Loaded configuration file for Sodium Extra: 28 options available, 0 override(s) found
+[17:09:53] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[17:09:53] [main/WARN]: Force-disabling mixin 'features.entity.fast_render.MixinCuboid' as rule 'mixin.features.entity.fast_render' (added by mods [iris]) disables it and children
+[17:09:53] [main/WARN]: Force-disabling mixin 'features.entity.fast_render.MixinModelPart' as rule 'mixin.features.entity.fast_render' (added by mods [iris]) disables it and children
+[17:09:53] [main/WARN]: Force-disabling mixin 'features.gui.font.MixinGlyphRenderer' as rule 'mixin.features.gui.font' (added by mods [iris]) disables it and children
+[17:09:53] [main/WARN]: Force-disabling mixin 'features.sky.MixinWorldRenderer' as rule 'mixin.features.sky' (added by mods [iris]) disables it and children
+[17:10:00] [main/INFO]: Building optimized datafixer
+[17:10:06] [Render thread/INFO]: Launching a new process to probe the system configuration!
+[17:10:07] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
+[17:10:07] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2
+[17:10:07] [Render thread/INFO]: OpenGL Version: 3.3.0 NVIDIA 528.49
+[17:10:07] [Render thread/WARN]: Enabling workaround for NVIDIA graphics drivers on Windows (issue #1486)
+[17:10:07] [Render thread/WARN]: One or more workarounds were enabled to prevent crashes or other issues on your system. You may need to update your graphics drivers.
+[17:10:07] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:10:08] [Render thread/INFO]: Setting user: Tactical7oaster
+[17:10:09] [Render thread/INFO]: [bclib] Added Config bclib.generator to auto sync (file hash)
+[17:10:09] [Render thread/INFO]: [bclib] Added Config bclib.main to auto sync (content diff)
+[17:10:09] [Render thread/INFO]: [bclib] Added Config bclib.recipes to auto sync (file hash)
+[17:10:09] [Render thread/INFO]: [bclib] Added Config bclib.biomes to auto sync (file hash)
+[17:10:10] [Render thread/INFO]: [bclib] Added Config betterend.entities to auto sync (file hash)
+[17:10:10] [Render thread/INFO]: [bclib] Added Config betterend.blocks to auto sync (file hash)
+[17:10:10] [Render thread/INFO]: [bclib] Added Config betterend.items to auto sync (file hash)
+[17:10:10] [Render thread/INFO]: [bclib] Added Config betterend.biomes to auto sync (file hash)
+[17:10:10] [Render thread/INFO]: [bclib] Added Config betterend.recipes to auto sync (file hash)
+[17:10:10] [Render thread/INFO]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
+[17:10:12] [Render thread/INFO]: Loading Blossom!
+[17:10:12] [Render thread/INFO]: Loading Collective version 6.48.
+[17:10:12] [Render thread/INFO]: Loaded Config! Regular deepslate extras are OFF
+[17:10:13] [Render thread/INFO]: [REI] Config loaded
+[17:10:14] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:request_tags_s2c
+[17:10:14] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[17:10:14] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[17:10:14] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[17:10:14] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [betterend] for REIPlugin
+[17:10:14] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIPlugin
+[17:10:14] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+[17:10:14] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIPlugin
+[17:10:14] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[17:10:14] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[17:10:14] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[17:10:14] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[17:10:14] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[17:10:14] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[17:10:14] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[17:10:14] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[17:10:14] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[17:10:14] [Render thread/INFO]: [ShulkerBoxTooltip] Could not find configuration file, creating default file
+[17:10:14] [Render thread/INFO]: Loaded config file.
+[17:10:14] [Render thread/INFO]: Saved config file.
+[17:10:14] [Render thread/ERROR]: No data fixer registered for swampier_swamps:dragonfly
+[17:10:14] [Render thread/ERROR]: No data fixer registered for swampier_swamps:swamp_gas
+[17:10:14] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[17:10:14] [Render thread/WARN]: Static binding violation: PRIVATE @Overwrite method method_23182 in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[17:10:15] [Render thread/INFO]: [BetterF3] Loading...
+[17:10:15] [Render thread/INFO]: [BetterF3] All done!
+[17:10:15] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[17:10:15] [Render thread/INFO]: Mod Initialized!
+[17:10:15] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[17:10:16] [Render thread/INFO]: [LambDynLights] Configuration loaded.
+[17:10:16] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [betterend] for REIClientPlugin
+[17:10:16] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
+[17:10:16] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[17:10:16] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[17:10:16] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:ci_msg
+[17:10:16] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:og_not_enough
+[17:10:16] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[17:10:18] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] Cached update file detected, using that!
+[17:10:18] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[17:10:20] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[17:10:20] [Render thread/INFO]: Debug functionality is disabled.
+[17:10:20] [Render thread/INFO]: Shaders are disabled because no valid shaderpack is selected
+[17:10:20] [Render thread/INFO]: Shaders are disabled
+[17:10:20] [Render thread/WARN]: Removed resource pack file/Dramatic Skys Demo 1.5.3.4.zip from options because it doesn't seem to exist anymore
+[17:10:21] [Render thread/INFO]: Hardware information:
+[17:10:21] [Render thread/INFO]: CPU: 8x Intel(R) Core(TM) i5-10200H CPU @ 2.40GHz
+[17:10:21] [Render thread/INFO]: GPU: NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2 (Supports OpenGL 3.2.0 NVIDIA 528.49)
+[17:10:21] [Render thread/INFO]: OS: Windows 10 (10.0)
+[17:10:22] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[17:10:23] [Render thread/INFO]: Reloading ResourceManager: vanilla, Fabric Mods (BCLib, Better End, BetterF3, Blossom, CaffeineConfig, Camera Utils, Chat Heads, Cloth Config v9, Clumps, Collective, Deepslate Cutting, Dyed, Dynamic FPS, Eating Animation, Ecologics, EntityCulling-Fabric, Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric Block API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Client Tags, Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Group API (v1), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Recipe API (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Sound API (v1), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Falling Leaves, Freecam, FuelInfo, Indium, Inventory Sorter, Iris, Kyrpt Config, LambDynamicLights, Litematica, Lithium, MaLiLib, More Axolotl Variants Mod, Macaw's Paintings, Mod Menu, Phosphor, Pride Lib, Reese's Sodium Options, Roughly Enough Items, Shulker Box Tooltip, Smooth chunk save Mod, Snow Under Trees, Sodium, Sodium Extra, SpruceUI, Swampier Swamps, Visuality, Xaero's World Map), minecraft/supporteatinganimation
+[17:10:24] [Worker-Main-8/ERROR]: Invalid path in mod resource-pack fabric:betterend: betterend:textures/item/thermal fungus.png, ignoring
+[17:10:25] [Render thread/INFO]: Creating pipeline for dimension OVERWORLD
+[17:10:26] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[17:10:26] [Render thread/INFO]: New world map region cache hash code: 708613646
+[17:10:26] [Render thread/INFO]: No Optifine!
+[17:10:26] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[17:10:36] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[17:10:36] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[17:10:36] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Lautsprecher (Scarlett 2i2 USB)
+[17:10:36] [Render thread/INFO]: Sound engine started
+[17:10:36] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[17:10:36] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[17:10:36] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[17:10:36] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[17:10:36] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
+[17:10:36] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[17:10:36] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17:10:37] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[17:10:37] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[17:10:37] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17:10:37] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17:10:37] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[17:10:45] [Render thread/ERROR]: [worlds_together] Tried to read from global registry!
+[17:10:45] [Render thread/ERROR]: [worlds_together] Tried to read from global registry!
+[17:10:45] [Render thread/ERROR]: [worlds_together] No valid registry found!
+[17:10:45] [Render thread/INFO]: [bclib] Running Pre Patchers on C:\Users\lukas\curseforge\minecraft\Instances\Modded Server\saves\New World (1)\.
+[17:10:45] [Render thread/INFO]: [DataFixerAPI] Everything up to date
+[17:10:47] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (102f90e)
+[17:10:47] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[17:10:47] [Render thread/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[17:10:47] [Render thread/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[17:10:47] [Render thread/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[17:10:47] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (3ff8b4ab)
+[17:10:47] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[17:10:47] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (17be150b)
+[17:10:47] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[17:10:47] [Render thread/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[17:10:47] [Render thread/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[17:10:47] [Render thread/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[17:10:47] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (5f37460)
+[17:10:47] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[17:10:47] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (12bf452a)
+[17:10:47] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[17:10:47] [Render thread/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[17:10:47] [Render thread/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[17:10:47] [Render thread/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[17:10:47] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (3cf1a8e0)
+[17:10:47] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[17:10:48] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (5d1d69b5)
+[17:10:48] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[17:10:48] [Render thread/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[17:10:48] [Render thread/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[17:10:48] [Render thread/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[17:10:48] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (4bf7a908)
+[17:10:48] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[17:10:48] [Render thread/WARN]: [bclib] No valid Biome Registry available!
+[17:10:48] [Render thread/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[17:10:48] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (4d7aade9)
+[17:10:48] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[17:10:48] [Render thread/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[17:10:48] [Render thread/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[17:10:48] [Render thread/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[17:10:48] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (3b2baffa)
+[17:10:48] [Render thread/INFO]: [bclib] Unable to build Biome List yet
+[17:10:49] [Render thread/INFO]: Loaded 7 recipes
+[17:10:50] [Render thread/INFO]: Loaded 1949 advancements
+[17:10:50] [Render thread/INFO]: Loaded 0 conditional recipes
+[17:10:51] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (464a1d71)
+[17:10:52] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (a182a11)
+[17:10:52] [Render thread/INFO]: [bclib] Enforcing Correct Generator for minecraft:the_nether.
+[17:10:52] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (a182a11)
+[17:10:52] [Render thread/INFO]: [bclib] Enforcing Correct Generator for minecraft:the_end.
+[17:10:52] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (464a1d71)
+[17:10:52] [Render thread/INFO]: [worlds_together] Loading originally configured Dimensions in World.
+[17:10:54] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (7b8bcfa9)
+[17:10:54] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (eecf8f7)
+[17:10:54] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (16040070)
+[17:10:54] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (2b31246)
+[17:10:54] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (6ec1dc4)
+[17:10:54] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (cb34f62)
+[17:10:55] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (4805fda2)
+[17:10:55] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (507a3eb1)
+[17:10:55] [Render thread/WARN]: [bclib] No valid Biome Registry available!
+[17:10:55] [Render thread/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[17:10:55] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (df067ee)
+[17:10:55] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (525bd234)
+[17:10:55] [Render thread/INFO]: Loaded 7 recipes
+[17:10:56] [Render thread/INFO]: Loaded 1949 advancements
+[17:10:56] [Render thread/INFO]: Loaded 0 conditional recipes
+[17:10:57] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (369c47b3)
+[17:10:57] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (47717528)
+[17:10:57] [Render thread/INFO]: [bclib] Enforcing Correct Generator for minecraft:the_nether.
+[17:10:57] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (47717528)
+[17:10:57] [Render thread/INFO]: [bclib] Enforcing Correct Generator for minecraft:the_end.
+[17:10:57] [Render thread/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (369c47b3)
+[17:10:57] [Render thread/INFO]: [worlds_together] Loading originally configured Dimensions in World.
+[17:10:57] [Render thread/WARN]: Mixin bclib.mixins.client.json:SignEditScreenMixin from mod bclib has multiple constructors, (Lnet/minecraft/class_2625;Z)V was selected
+[17:10:57] [Render thread/INFO]: Applied 33 biome modifications to 15 of 88 new biomes in 55.85 ms
+[17:10:57] [Server thread/INFO]: Starting integrated minecraft server version 1.19.3
+[17:10:57] [Server thread/INFO]: Generating keypair
+[17:10:57] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:the_nether
+    BCLib - Nether BiomeSource (47717528)
+        biomes     = 5
+        namespaces = minecraft
+        seed       = 0
+        height     = 128
+        config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[17:10:57] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:the_end
+    BCLib - The End  BiomeSource (369c47b3)
+        biomes     = 24
+        namespaces = betterend, minecraft
+        seed       = 0
+        height     = 128
+        deciders   = 1
+        config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[17:10:57] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:overworld
+    class_4766 (18f42c7a)
+        biomes     = 52
+        namespaces = minecraft
+[17:10:57] [Server thread/INFO]: [bclib] World Dimensions: 
+ - minecraft:the_nether: 
+     BCLib - Chunk Generator (5d1c37e7) 
+     BCLib - Nether BiomeSource (47717528)
+         biomes     = 5
+         namespaces = minecraft
+         seed       = 0
+         height     = 128
+         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+ - minecraft:the_end: 
+     BCLib - Chunk Generator (31b95913) 
+     BCLib - The End  BiomeSource (369c47b3)
+         biomes     = 24
+         namespaces = betterend, minecraft
+         seed       = 0
+         height     = 128
+         deciders   = 1
+         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+ - minecraft:overworld: 
+     net.minecraft.class_3754@428a0f9c 
+     class_4766 (18f42c7a)
+         biomes     = 52
+         namespaces = minecraft
+[17:11:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:11:06] [Render thread/INFO]: Preparing spawn area: 0%
+[17:11:06] [Render thread/INFO]: Preparing spawn area: 0%
+[17:11:06] [Render thread/INFO]: Preparing spawn area: 0%
+[17:11:06] [Render thread/INFO]: Preparing spawn area: 0%
+[17:11:06] [Render thread/INFO]: Preparing spawn area: 0%
+[17:11:06] [Render thread/INFO]: Preparing spawn area: 0%
+[17:11:06] [Render thread/INFO]: Preparing spawn area: 0%
+[17:11:06] [Render thread/INFO]: Preparing spawn area: 0%
+[17:11:06] [Render thread/INFO]: Preparing spawn area: 0%
+[17:11:07] [Render thread/INFO]: Preparing spawn area: 0%
+[17:11:07] [Render thread/INFO]: Preparing spawn area: 20%
+[17:11:08] [Render thread/INFO]: Preparing spawn area: 54%
+[17:11:08] [Render thread/INFO]: Time elapsed: 5765 ms
+[17:11:08] [Server thread/INFO]: Changing view distance to 20, from 10
+[17:11:08] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[17:11:10] [Server thread/INFO]: Tactical7oaster[local:E:27a3b2f9] logged in with entity id 36 at (-591.681434244728, 68.3445546056308, 468.675969874484)
+[17:11:10] [Server thread/INFO]: Tactical7oaster joined the game
+[17:11:10] [Render thread/INFO]: New world map session initialized!
+[17:11:11] [Render thread/INFO]: Started 2 worker threads
+[17:11:11] [Render thread/INFO]: [bclib] Sending hello to server.
+[17:11:12] [Render thread/INFO]: Using 3 total BufferBuilder caches
+[17:11:12] [Render thread/WARN]: Unable to read property: west with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[17:11:12] [Render thread/WARN]: Unable to read property: east with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[17:11:12] [Render thread/WARN]: Unable to read property: south with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[17:11:12] [Render thread/WARN]: Unable to read property: north with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[17:11:12] [Render thread/WARN]: Unable to read property: west with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[17:11:12] [Render thread/WARN]: Unable to read property: east with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[17:11:12] [Render thread/WARN]: Unable to read property: south with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[17:11:12] [Render thread/WARN]: Unable to read property: north with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[17:11:12] [Server thread/INFO]: [bclib] Received Hello from Client. (server=2.2.4, client=2.2.4)
+[17:11:12] [Server thread/INFO]: [bclib] Auto-Sync is disabled for Singleplayer worlds.
+[17:11:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2541ms or 50 ticks behind
+[17:11:12] [Render thread/INFO]: [ShulkerBoxTooltip] Server integration enabled, attempting handshake...
+[17:11:12] [Netty Server IO #1/INFO]: [ShulkerBoxTooltip] Tactical7oaster: protocol version: 2.0
+[17:11:12] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
+[17:11:12] [Netty Local Client IO #0/INFO]: [ShulkerBoxTooltip] Handshake succeeded
+[17:11:12] [Netty Local Client IO #0/INFO]: [ShulkerBoxTooltip] Server protocol version: 2.0
+[17:11:12] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 7 providers for mod shulkerboxtooltip
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI] REIPlugin starting main-reload for START.
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI] Plugins (7):
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REIPlugin of REIPlugin [betterend]
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin starting main-reload for START.
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI] Plugins (4):
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REIPlugin of REIPlugin [betterend]
+[17:11:12] [REI-ReloadPlugins/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[17:11:13] [Render thread/INFO]: Loading all registered leaf blocks.
+[17:11:13] [Render thread/INFO]: Loaded 85 advancements
+[17:11:13] [Render thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 19 color keys for mod shulkerboxtooltip
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI] Plugins (3):
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI] REIPlugin finished post-reload for START in 1.370 ms, totaling 327.2 ms.
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin finished post-reload for START in 502.0 ?s, totaling 1.300 s.
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin finished post-reload for START in 379.9 ?s, totaling 3.612 ms.
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI] REIPlugin starting main-reload for END.
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI] Plugins (7):
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REIPlugin of REIPlugin [betterend]
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin starting main-reload for END.
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI] Plugins (4):
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) REIPlugin of REIPlugin [betterend]
+[17:11:14] [REI-ReloadPlugins/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[17:11:15] [REI-ReloadPlugins/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[17:11:15] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[17:11:15] [REI-ReloadPlugins/INFO]: [REI] Plugins (3):
+[17:11:15] [REI-ReloadPlugins/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:11:15] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[17:11:15] [REI-ReloadPlugins/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:11:15] [REI-ReloadPlugins/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[17:11:15] [REI-ReloadPlugins/INFO]: [REI] REIPlugin finished post-reload for END in 665.3 ?s, totaling 65.75 ms.
+[17:11:15] [REI-ReloadPlugins/INFO]: [REI] REIClientPlugin finished post-reload for END in 415.8 ?s, totaling 1.478 s.
+[17:11:15] [REI-ReloadPlugins/INFO]: [REI] REIServerPlugin finished post-reload for END in 331.8 ?s, totaling 14.14 ms.
+[17:11:36] [Worker-Bootstrap-5/INFO]: 4445 Datafixer optimizations took 95531 milliseconds
+[17:12:07] [Server thread/INFO]: Config saved to file
+[17:12:07] [Server thread/INFO]: Stopping server
+[17:12:07] [Server thread/INFO]: Saving players
+[17:12:07] [Server thread/INFO]: Saving worlds
+[17:12:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[17:12:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[17:12:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17:12:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[17:12:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:12:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:12:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:12:12] [Render thread/INFO]: Finalizing world map session...
+[17:12:12] [Thread-12/INFO]: World map force-cleaned!
+[17:12:12] [Render thread/INFO]: World map session finalized.
+[17:12:12] [Render thread/INFO]: Stopping worker threads
+[17:12:12] [Render thread/ERROR]: Reported exception thrown!
+net.minecraft.class_148: Container click
+	at net.minecraft.class_437.method_25412(class_437.java:497) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_1601(class_312.java:94) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_22686(class_312.java:165) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1255.execute(class_1255.java:102) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_22684(class_312.java:165) ~[client-intermediary.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:190) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1041.method_15998(class_1041.java:310) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1222) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:781) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.method_44604(Main.java:244) ~[fabric-loader-0.14.14-1.19.3.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[fabric-loader-0.14.14-1.19.3.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) ~[fabric-loader-0.14.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.14.jar:?]
+Caused by: java.lang.UnsupportedOperationException
+	at java.util.ImmutableCollections.uoe(ImmutableCollections.java:142) ~[?:?]
+	at java.util.ImmutableCollections$AbstractImmutableCollection.clear(ImmutableCollections.java:149) ~[?:?]
+	at net.minecraft.class_3971.method_17855(class_3971.java:149) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3971.method_7609(class_3971.java:144) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3971$1.method_5431(class_3971.java:44) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1277.method_5434(class_1277.java:64) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1735.method_7671(class_1735.java:88) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3971$2.method_7667(class_3971.java:74) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3971.method_7601(class_3971.java:231) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1703.method_30010(class_1703.java:397) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1703.method_7593(class_1703.java:294) ~[client-intermediary.jar:?]
+	at net.minecraft.class_636.method_2906(class_636.java:454) ~[client-intermediary.jar:?]
+	at net.minecraft.class_465.method_2383(class_465.java:568) ~[client-intermediary.jar:?]
+	at net.minecraft.class_465.method_25402(class_465.java:360) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3979.method_25402(class_3979.java:150) ~[client-intermediary.jar:?]
+	at net.minecraft.class_312.method_1611(class_312.java:94) ~[client-intermediary.jar:?]
+	at net.minecraft.class_437.method_25412(class_437.java:492) ~[client-intermediary.jar:?]
+	... 16 more
